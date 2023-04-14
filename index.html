@@ -227,7 +227,7 @@ Experienced in game development, machine learning and graphic design. </div>
     <main>
 
     <div class="banner">
-      <img src="banner.png">
+      <img src="Images/Banner.png">
     </div>
 
       <section id="about">
@@ -247,7 +247,7 @@ Java.
       <section id="projects">
         <h2>Projects</h2>
         <div class="project">
-          <img src="184544323-70d1e369-2ad9-4b58-bd76-9d11bfaaa516.png">
+          <img src="Images/Screenshots/TBC.png">
           <h3>Turn Based Combat</h3>
 
           <div class="skill-container">
@@ -265,7 +265,7 @@ base in C#, UI design, visual effects and gameplay mechanics.
 
 
         <div class="project">
-          <img src="ss5.png">  
+          <img src="Images/Screenshots/FelineFrenzy.png">  
       <h3>Grid Based Combat Using Unity ML-Agents</h3>
 
       <div class="skill-container">
@@ -285,7 +285,7 @@ base in C#, UI design, visual effects and gameplay mechanics.
 
     
     <div class="project">
-      <img src="ss6 (2).png">
+      <img src="Images/Screenshots/Sckicit.png">
       <h3>Machine Learning With Scikit-Learn</h3>
 
       <div class="skill-container">
@@ -301,7 +301,7 @@ base in C#, UI design, visual effects and gameplay mechanics.
     </div>
     
     <div class="project">
-        <img src="oxaca.png">
+        <img src="Images/Screenshots/Oxaca.png">
         <h3>Team Project With Scrum Methodology</h3>
         
         <div class="skill-container">
@@ -347,20 +347,26 @@ base in C#, UI design, visual effects and gameplay mechanics.
   <div class="slideshow-container">
   <button type="button" onclick="previousImage()" id="slideshow-btn"><b><</b></button>
   <div class="slideshow">
-    <img id="slideshow-img" src="Slideshow/1.png">
+    <img id="slideshow-img" src="Images/Slideshow/1.png">
   </div>
   <button type="button" onclick="nextImage()" id="slideshow-btn"><b>></b></button>
 </div>
 
   <script>
     const slideshow = document.querySelector('.slideshow');
-    const images = ['Slideshow/1.png', 'Slideshow/2.jpg', 'Slideshow/3.png', 'Slideshow/4.jpg', 'Slideshow/5.jpg'];
+    const images = ['Images/Slideshow/1.png', 'Images/Slideshow/1.5.png', 'Images/Slideshow/2.jpg', 'Images/Slideshow/3.png', 'Images/Slideshow/4.jpg', 'Images/Slideshow/5.jpg',
+    'Images/Slideshow/6.png', 'Images/Slideshow/7.png', 'Images/Slideshow/8.png', 'Images/Slideshow/9.png'];
 
-    const captions = ['An unused website design created as a draft for Royal Holloway\'s Computing Society\'s new website.', 
+    const captions = ['An unused website design created as a draft for Royal Holloway\'s Computing Society\'s new website.',
+    'The design for the mobile version of the website.',
     'Banners I designed for CompSoc and Royal Hackaway (Computing Society\'s annual hackathon).', 
     'Hackaway V5 sticker designs', 
     'Printed stickers for Hackaway V6.',
-  'A selection of social media posts designed for CompSoc. Some were even displayed around campus for all students to see!'];
+  'A selection of social media posts designed for CompSoc. Some were even displayed around campus for all students to see!',
+  'The front cover of a booklet created for my A Level Graphic Design Course.',
+  'Pages 1 - 2 containing models of gaming equipment modelled in Blender.',
+  'Pages 3 - 4.',
+  'Back cover.'];
     let index = 0;
   
     function nextImage() {
@@ -377,13 +383,6 @@ base in C#, UI design, visual effects and gameplay mechanics.
       document.getElementById("slideshow-caption").textContent = captions[index];
     
     }
-
-    let gif_index = 0;
-      setInterval(function() {
-        gif_index = gif_index + 1;
-        const img = document.getElementById('gif');
-        img.src = "/Gif/" + 000 + gif_index + ".gif";
-      }, 1000);
   </script>
   
 
@@ -411,10 +410,10 @@ base in C#, UI design, visual effects and gameplay mechanics.
     <br>
     <h2>Contact</h2>
     <div class="social-links">
-      <a href="https://www.linkedin.com/in/amberabuah/" target="_blank"><img src="linkedinlogo.png"></a>
-      <a href="mailto:amberabuah@gmail.com"><img src="gmaillogo.png"></a>
-      <a href="https://github.com/Amber-Abuah" target="_blank"><img src="githublogo.png"></a>
-      <a href="https://sketchfab.com/amberabuah/models" target="_blank"><img src="sketchfablogo.png"></a>
+      <a href="https://www.linkedin.com/in/amberabuah/" target="_blank"><img src="Images/Logos/linkedin-logo.png"></a>
+      <a href="mailto:amberabuah@gmail.com"><img src="Images/Logos/gmail-logo.png"></a>
+      <a href="https://github.com/Amber-Abuah" target="_blank"><img src="Images/Logos/github-logo.png"></a>
+      <a href="https://sketchfab.com/amberabuah/models" target="_blank"><img src="Images/Logos/sketchfab-logo.png"></a>
     </div>
   </section>
 </main>
