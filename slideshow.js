@@ -2,11 +2,11 @@ const slideshow = document.querySelector('.slideshow');
 const images = ['Images/Slideshow/1.png', 'Images/Slideshow/1.5.png', 'Images/Slideshow/2.jpg', 'Images/Slideshow/3.png', 'Images/Slideshow/4.jpg', 'Images/Slideshow/5.jpg',
 'Images/Slideshow/6.png', 'Images/Slideshow/7.png', 'Images/Slideshow/8.png', 'Images/Slideshow/9.png'];
 
-const captions = ['An unused website design created as a draft for Royal Holloway\'s Computing Society\'s new website.',
-'The design for the mobile version of the website.',
+const captions = ['An unused website design created for Royal Holloway\'s Computing Society.',
+'A design for the mobile version of the website.',
 'Banners I designed for CompSoc and Royal Hackaway (Computing Society\'s annual hackathon).', 
-'Hackaway V5 sticker designs', 
-'Printed stickers for Hackaway V6.',
+'Stickers designs created for Royal Hackaway v5.', 
+'Printed stickers for Royal Hackaway V6.',
 'A selection of social media posts designed for CompSoc. Some were even displayed around campus for all students to see!',
 'The front cover of a booklet created for my A Level Graphic Design Course.',
 'Pages 1 - 2 containing models of gaming equipment modelled in Blender.',
